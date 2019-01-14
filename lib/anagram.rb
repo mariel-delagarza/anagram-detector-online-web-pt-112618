@@ -1,6 +1,6 @@
 class Anagram
   
-  attr_reader :anagrams
+  attr_accessor :
   
   def initialize(word)
     word.match(%w(array))
